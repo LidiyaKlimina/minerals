@@ -1,10 +1,10 @@
 import csv
 
-def get_vitamins_input() -> list:
+def get_vitamins_input(vitamins_input) -> list:
     """
     Функция для ввода списка витаминов от пользователя.
     """
-    vitamins_input = input("Впишите через запятую, какие витамины и микроэлементы вы планируете принимать: ")
+     # = input("Впишите через запятую, какие витамины и микроэлементы вы планируете принимать: ")
     vitamins_list = [vitamin.strip().lower() for vitamin in vitamins_input.split(',')]
     return vitamins_list
 
