@@ -46,6 +46,7 @@ TBD - практика, когда работа всех команд ведет
 
 # Сдвиг влево
 ![width:90%](Images/Shift%20left.png)
+
 # Материалы
 * [Размышления о тестировании | less.works](https://less.works/ru/less/technical-excellence/thinking-about-testing)
 * [Автоматизация тестирования | less.works](https://less.works/ru/less/technical-excellence/test-automation)
