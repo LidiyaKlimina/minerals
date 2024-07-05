@@ -16,7 +16,7 @@ TBD - практика, когда работа всех команд ведет
   * Ветки живут не больше 1 дня
 
 Даже не до конца готовые фичи выходят в прод, но закрываются feature toggle.
-![height:450px](Images/TBD.png)
+![height:450px](TBD.png)
 [Сайт TBD](https://trunkbaseddevelopment.com)
 
 
@@ -41,11 +41,11 @@ TBD - практика, когда работа всех команд ведет
 
 # Автотесты это ...
 Автотест — это код, который автоматически проверяет, что код работает правильно с точки зрения пользователя.
-![bg height:85%](Images/Testing%20pyramid.png)
-![bg width:90%](Images/TDD.png)
+![bg height:85%](Testing%20pyramid.png)
+![bg width:90%](TDD.png)
 
 # Сдвиг влево
-![width:90%](Images/Shift%20left.png)
+![width:90%](Shift%20left.png)
 
 # Материалы
 * [Размышления о тестировании | less.works](https://less.works/ru/less/technical-excellence/thinking-about-testing)
