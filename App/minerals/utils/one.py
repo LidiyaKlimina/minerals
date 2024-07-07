@@ -8,7 +8,7 @@ def get_vitamins_input(input_vitamins) -> list:
 
 
 def filter_table(vitamins_list):
-    df = pd.read_csv('C:/Users/kijud/Git.Projects/minerals/App/vitamin_compatibility.csv', index_col=0) 
+    df = pd.read_csv('C:/Users/kijud/Git.Projects/minerals/App/minerals/DataBase/vitamin_compatibility.csv', index_col=0) 
     filtered_df=df.loc[vitamins_list, vitamins_list] 
     
     return filtered_df
