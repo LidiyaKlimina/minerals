@@ -1,4 +1,6 @@
 import pandas as pd
+#Fetch
+
 
 def get_vitamins_input(input_vitamins) -> list:
     # = input("Впишите через запятую, какие витамины и микроэлементы вы планируете принимать: ")
