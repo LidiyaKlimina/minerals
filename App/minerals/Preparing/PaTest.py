@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 #Fetch
 
 
@@ -10,8 +11,12 @@ def get_vitamins_input(input_vitamins) -> list:
 
 
 def filter_table(vitamins_list):
-    df = pd.read_csv("vitamin_compatibility.csv", index_col=0) 
+    file_name = "../DataBase/vitamin_compatibility.csv"
+    file_path = os.path.join(os.path.dirname(__file__), file_name) 
+    df = pd.read_csv(file_path, index_col=0)
     filtered_df=df.loc[vitamins_list, vitamins_list] 
+    
+    return filtered_df
     
     return filtered_df
 
